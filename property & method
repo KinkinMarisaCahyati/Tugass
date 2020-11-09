@@ -1,0 +1,19 @@
+<?php 
+class mobil{
+	public $nama, $merk, $warna, $kecepatanmaximal;
+	public function tambahkecepatan(){
+		return "Kecepatan bertambah";
+	}
+}
+	$mobilku = new mobil();
+	$mobilku->nama="Mercedes Benz C100";
+	$mobilku->merk="Mercedes Benz";
+	$mobilku->warna="Silver";
+
+	echo $mobilku->nama;
+	echo "<br>";
+	echo "Merk: ".$mobilku->merk;
+	echo "<br>";
+	echo "Warna: ".$mobilku->warna;
+	echo "<br>";
+	echo $mobilku->tambahkecepatan()
